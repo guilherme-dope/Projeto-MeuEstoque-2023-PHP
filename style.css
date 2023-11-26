@@ -1,0 +1,102 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding-top: 20px;
+}
+
+/* Adicionando um espaço extra no topo para acomodar a barra de navegação fixa */
+.how-to-use {
+    padding-top: 60px;
+}
+
+/* Estilizando a barra de navegação fixa */
+.fixed-top {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 123, 255, 0.8), rgba(0, 123, 255, 0.5)), url('https://s3.amazonaws.com/bucket.sankhya/sankhya/wp-content/uploads/2017/08/14113501/gestao-de-estoque.webp');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 80px 0;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.btn-primary {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.features {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+}
+
+.features h2 {
+    text-align: center;
+}
+
+.features i {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.features h3 {
+    font-size: 1.5em;
+}
+
+.how-to-use h2 {
+    font-size: 2em;
+}
+
+.how-to-use p {
+    font-size: 1.2em;
+}
+
+.requirements h2 {
+    font-size: 2em;
+}
+
+.requirements ul {
+    list-style: none;
+    padding: 0;
+}
+
+.requirements li {
+    margin-bottom: 10px;
+}
+
+.contact h2 {
+    font-size: 2em;
+}
+
+.contact p,
+.contact ul {
+    font-size: 1.2em;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
